@@ -10,7 +10,6 @@ import UIKit
 final class SecondPresenter: NSObject, SecondViewOutput, SecondModuleInput {
 
     weak var mainPresenter: MainModuleOutput?
-
     weak var view: SecondViewInput?
 
     func loaded() {

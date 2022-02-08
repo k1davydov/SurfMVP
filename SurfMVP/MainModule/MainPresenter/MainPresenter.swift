@@ -10,7 +10,6 @@ import UIKit
 final class MainPresenter: NSObject, MainViewOutput, MainModuleOutput {
 
     weak var view: MainViewInput?
-    weak var secondPresenter: SecondModuleInput?
 
     var router: MainRouterInput?
 
