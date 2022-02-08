@@ -1,16 +1,16 @@
 //
-//  Configurator.swift
+//  MainConfigurator.swift
 //  SurfMVP
 //
 //  Created by davydov-k on 07.02.2022.
 //
 
-final class Configurator {
+final class MainConfigurator {
 
-    static func configure() -> ViewController {
-        let view = ViewController()
-        let presenter = Presenter()
-        let router = Router()
+    static func configure() -> MainViewController {
+        let view = MainViewController()
+        let presenter = MainPresenter()
+        let router = MainRouter()
 
         router.module = view
         router.presenter = presenter

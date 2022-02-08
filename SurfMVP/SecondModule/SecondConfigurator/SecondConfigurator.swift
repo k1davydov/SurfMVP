@@ -6,15 +6,15 @@
 //
 
 final class SecondConfigurator {
-
-    static func configure(mainPresenter: ModuleOutput?) -> SecondController {
+//change to Module output
+    static func configure(output: MainModuleOutput?) -> (controller: SecondController, input: SecondModuleInput) {
         let view = SecondController()
         let presenter = SecondPresenter()
 
         view.presenter = presenter
         presenter.view = view
-        presenter.mainPresenter = mainPresenter
+        presenter.mainPresenter = output
 
-        return view
+        return (view, presenter)
     }
 }

@@ -9,7 +9,7 @@ import UIKit
 
 final class SecondPresenter: NSObject, SecondViewOutput, SecondModuleInput {
 
-    weak var mainPresenter: ModuleOutput?
+    weak var mainPresenter: MainModuleOutput?
 
     weak var view: SecondViewInput?
 
@@ -18,7 +18,6 @@ final class SecondPresenter: NSObject, SecondViewOutput, SecondModuleInput {
     }
 
     func pressed() {
-        mainPresenter?.setSecondPresenter(self)
         mainPresenter?.canClose()
     }
 

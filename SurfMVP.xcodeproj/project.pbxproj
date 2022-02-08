@@ -8,45 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		C024E68227B1690300B84FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E68127B1690300B84FE2 /* AppDelegate.swift */; };
-		C024E68627B1690300B84FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E68527B1690300B84FE2 /* ViewController.swift */; };
+		C024E68627B1690300B84FE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E68527B1690300B84FE2 /* MainViewController.swift */; };
 		C024E68B27B1690400B84FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C024E68A27B1690400B84FE2 /* Assets.xcassets */; };
 		C024E68E27B1690400B84FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C024E68C27B1690400B84FE2 /* LaunchScreen.storyboard */; };
-		C024E69927B16D9700B84FE2 /* ViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69827B16D9700B84FE2 /* ViewInput.swift */; };
-		C024E69B27B16E2D00B84FE2 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69A27B16E2D00B84FE2 /* Presenter.swift */; };
-		C024E69D27B16ECF00B84FE2 /* ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69C27B16ECF00B84FE2 /* ViewOutput.swift */; };
-		C024E69F27B16FA900B84FE2 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69E27B16FA900B84FE2 /* Configurator.swift */; };
+		C024E69927B16D9700B84FE2 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69827B16D9700B84FE2 /* MainViewInput.swift */; };
+		C024E69B27B16E2D00B84FE2 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69A27B16E2D00B84FE2 /* MainPresenter.swift */; };
+		C024E69D27B16ECF00B84FE2 /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69C27B16ECF00B84FE2 /* MainViewOutput.swift */; };
+		C024E69F27B16FA900B84FE2 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E69E27B16FA900B84FE2 /* MainConfigurator.swift */; };
 		C024E6A227B1710B00B84FE2 /* SecondViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6A127B1710B00B84FE2 /* SecondViewInput.swift */; };
 		C024E6A427B1711C00B84FE2 /* SecondViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6A327B1711C00B84FE2 /* SecondViewOutput.swift */; };
 		C024E6A627B1713600B84FE2 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6A527B1713600B84FE2 /* SecondPresenter.swift */; };
 		C024E6A827B1713E00B84FE2 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6A727B1713E00B84FE2 /* SecondController.swift */; };
 		C024E6AA27B1735C00B84FE2 /* SecondConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6A927B1735C00B84FE2 /* SecondConfigurator.swift */; };
 		C024E6AD27B1745C00B84FE2 /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6AC27B1745C00B84FE2 /* ModuleTransitionable.swift */; };
-		C024E6AF27B1749400B84FE2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6AE27B1749400B84FE2 /* Router.swift */; };
-		C024E6B127B1751E00B84FE2 /* RouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6B027B1751E00B84FE2 /* RouterInput.swift */; };
-		C024E6B527B17A9700B84FE2 /* ModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6B427B17A9700B84FE2 /* ModuleOutput.swift */; };
+		C024E6AF27B1749400B84FE2 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6AE27B1749400B84FE2 /* MainRouter.swift */; };
+		C024E6B127B1751E00B84FE2 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6B027B1751E00B84FE2 /* MainRouterInput.swift */; };
+		C024E6B527B17A9700B84FE2 /* MainModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6B427B17A9700B84FE2 /* MainModuleOutput.swift */; };
 		C024E6B727B182EA00B84FE2 /* SecondModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C024E6B627B182EA00B84FE2 /* SecondModuleInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C024E67E27B1690300B84FE2 /* SurfMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C024E68127B1690300B84FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C024E68527B1690300B84FE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C024E68527B1690300B84FE2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C024E68A27B1690400B84FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C024E68D27B1690400B84FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C024E68F27B1690400B84FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C024E69827B16D9700B84FE2 /* ViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInput.swift; sourceTree = "<group>"; };
-		C024E69A27B16E2D00B84FE2 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		C024E69C27B16ECF00B84FE2 /* ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutput.swift; sourceTree = "<group>"; };
-		C024E69E27B16FA900B84FE2 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
+		C024E69827B16D9700B84FE2 /* MainViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		C024E69A27B16E2D00B84FE2 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		C024E69C27B16ECF00B84FE2 /* MainViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		C024E69E27B16FA900B84FE2 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
 		C024E6A127B1710B00B84FE2 /* SecondViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewInput.swift; sourceTree = "<group>"; };
 		C024E6A327B1711C00B84FE2 /* SecondViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewOutput.swift; sourceTree = "<group>"; };
 		C024E6A527B1713600B84FE2 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
 		C024E6A727B1713E00B84FE2 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 		C024E6A927B1735C00B84FE2 /* SecondConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondConfigurator.swift; sourceTree = "<group>"; };
 		C024E6AC27B1745C00B84FE2 /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
-		C024E6AE27B1749400B84FE2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		C024E6B027B1751E00B84FE2 /* RouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterInput.swift; sourceTree = "<group>"; };
-		C024E6B427B17A9700B84FE2 /* ModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOutput.swift; sourceTree = "<group>"; };
+		C024E6AE27B1749400B84FE2 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		C024E6B027B1751E00B84FE2 /* MainRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
+		C024E6B427B17A9700B84FE2 /* MainModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModuleOutput.swift; sourceTree = "<group>"; };
 		C024E6B627B182EA00B84FE2 /* SecondModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModuleInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +61,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0180FFC27B253F1007E55BB /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C024E69827B16D9700B84FE2 /* MainViewInput.swift */,
+				C024E68527B1690300B84FE2 /* MainViewController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		C0180FFD27B25415007E55BB /* MainPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C024E6B427B17A9700B84FE2 /* MainModuleOutput.swift */,
+				C024E69C27B16ECF00B84FE2 /* MainViewOutput.swift */,
+				C024E69A27B16E2D00B84FE2 /* MainPresenter.swift */,
+			);
+			path = MainPresenter;
+			sourceTree = "<group>";
+		};
+		C0180FFE27B2542E007E55BB /* MainRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C024E6B027B1751E00B84FE2 /* MainRouterInput.swift */,
+				C024E6AE27B1749400B84FE2 /* MainRouter.swift */,
+			);
+			path = MainRouter;
+			sourceTree = "<group>";
+		};
+		C0180FFF27B2551A007E55BB /* MainConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				C024E69E27B16FA900B84FE2 /* MainConfigurator.swift */,
+			);
+			path = MainConfigurator;
+			sourceTree = "<group>";
+		};
+		C018100027B2573A007E55BB /* SecondConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				C024E6A927B1735C00B84FE2 /* SecondConfigurator.swift */,
+			);
+			path = SecondConfigurator;
+			sourceTree = "<group>";
+		};
+		C018100127B25746007E55BB /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				C024E6A127B1710B00B84FE2 /* SecondViewInput.swift */,
+				C024E6A727B1713E00B84FE2 /* SecondController.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		C018100227B25759007E55BB /* SecondPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				C024E6A327B1711C00B84FE2 /* SecondViewOutput.swift */,
+				C024E6B627B182EA00B84FE2 /* SecondModuleInput.swift */,
+				C024E6A527B1713600B84FE2 /* SecondPresenter.swift */,
+			);
+			path = SecondPresenter;
+			sourceTree = "<group>";
+		};
 		C024E67527B1690300B84FE2 = {
 			isa = PBXGroup;
 			children = (
@@ -110,14 +173,10 @@
 		C024E69727B16D7B00B84FE2 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				C024E69827B16D9700B84FE2 /* ViewInput.swift */,
-				C024E68527B1690300B84FE2 /* ViewController.swift */,
-				C024E69C27B16ECF00B84FE2 /* ViewOutput.swift */,
-				C024E69A27B16E2D00B84FE2 /* Presenter.swift */,
-				C024E6B027B1751E00B84FE2 /* RouterInput.swift */,
-				C024E6AE27B1749400B84FE2 /* Router.swift */,
-				C024E6B427B17A9700B84FE2 /* ModuleOutput.swift */,
-				C024E69E27B16FA900B84FE2 /* Configurator.swift */,
+				C0180FFF27B2551A007E55BB /* MainConfigurator */,
+				C0180FFC27B253F1007E55BB /* MainView */,
+				C0180FFD27B25415007E55BB /* MainPresenter */,
+				C0180FFE27B2542E007E55BB /* MainRouter */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -125,12 +184,9 @@
 		C024E6A027B170E700B84FE2 /* SecondModule */ = {
 			isa = PBXGroup;
 			children = (
-				C024E6A127B1710B00B84FE2 /* SecondViewInput.swift */,
-				C024E6A727B1713E00B84FE2 /* SecondController.swift */,
-				C024E6A327B1711C00B84FE2 /* SecondViewOutput.swift */,
-				C024E6A527B1713600B84FE2 /* SecondPresenter.swift */,
-				C024E6B627B182EA00B84FE2 /* SecondModuleInput.swift */,
-				C024E6A927B1735C00B84FE2 /* SecondConfigurator.swift */,
+				C018100027B2573A007E55BB /* SecondConfigurator */,
+				C018100127B25746007E55BB /* SecondView */,
+				C018100227B25759007E55BB /* SecondPresenter */,
 			);
 			path = SecondModule;
 			sourceTree = "<group>";
@@ -216,19 +272,19 @@
 				C024E6A227B1710B00B84FE2 /* SecondViewInput.swift in Sources */,
 				C024E6A427B1711C00B84FE2 /* SecondViewOutput.swift in Sources */,
 				C024E6AD27B1745C00B84FE2 /* ModuleTransitionable.swift in Sources */,
-				C024E6B527B17A9700B84FE2 /* ModuleOutput.swift in Sources */,
+				C024E6B527B17A9700B84FE2 /* MainModuleOutput.swift in Sources */,
 				C024E6B727B182EA00B84FE2 /* SecondModuleInput.swift in Sources */,
-				C024E68627B1690300B84FE2 /* ViewController.swift in Sources */,
-				C024E69D27B16ECF00B84FE2 /* ViewOutput.swift in Sources */,
+				C024E68627B1690300B84FE2 /* MainViewController.swift in Sources */,
+				C024E69D27B16ECF00B84FE2 /* MainViewOutput.swift in Sources */,
 				C024E68227B1690300B84FE2 /* AppDelegate.swift in Sources */,
-				C024E69B27B16E2D00B84FE2 /* Presenter.swift in Sources */,
+				C024E69B27B16E2D00B84FE2 /* MainPresenter.swift in Sources */,
 				C024E6AA27B1735C00B84FE2 /* SecondConfigurator.swift in Sources */,
-				C024E69F27B16FA900B84FE2 /* Configurator.swift in Sources */,
-				C024E6B127B1751E00B84FE2 /* RouterInput.swift in Sources */,
-				C024E69927B16D9700B84FE2 /* ViewInput.swift in Sources */,
+				C024E69F27B16FA900B84FE2 /* MainConfigurator.swift in Sources */,
+				C024E6B127B1751E00B84FE2 /* MainRouterInput.swift in Sources */,
+				C024E69927B16D9700B84FE2 /* MainViewInput.swift in Sources */,
 				C024E6A627B1713600B84FE2 /* SecondPresenter.swift in Sources */,
 				C024E6A827B1713E00B84FE2 /* SecondController.swift in Sources */,
-				C024E6AF27B1749400B84FE2 /* Router.swift in Sources */,
+				C024E6AF27B1749400B84FE2 /* MainRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

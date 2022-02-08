@@ -1,11 +1,11 @@
 //
-//  ViewOutput.swift
+//  MainViewOutput.swift
 //  SurfMVP
 //
 //  Created by davydov-k on 07.02.2022.
 //
 
-protocol ViewOutput {
+protocol MainViewOutput {
 
     func loaded()
     func pressed()

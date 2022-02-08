@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  SurfMVP
 //
 //  Created by davydov-k on 07.02.2022.
@@ -7,9 +7,9 @@
 
 import UIKit
 
-final class ViewController: UIViewController, ModuleTransitionable, ViewInput {
+final class MainViewController: UIViewController, ModuleTransitionable, MainViewInput {
 
-    var presenter: ViewOutput?
+    var presenter: MainViewOutput?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +44,7 @@ final class ViewController: UIViewController, ModuleTransitionable, ViewInput {
     }
 
     static func instanciateFromSB() -> UIViewController {
-        return ViewController()
+        return MainViewController()
     }
 
 }

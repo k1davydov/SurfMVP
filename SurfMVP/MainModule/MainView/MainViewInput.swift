@@ -1,5 +1,5 @@
 //
-//  ViewInput.swift
+//  MainViewInput.swift
 //  SurfMVP
 //
 //  Created by davydov-k on 07.02.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol ViewInput: NSObject {
+protocol MainViewInput: NSObject {
 
     func setup()
 
